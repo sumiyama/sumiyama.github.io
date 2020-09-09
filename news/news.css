@@ -13,12 +13,6 @@ div {
   position: relative;
 }
 
-.functionpoint {
-  position: absolute;
-  top: 0;
-  height: 266px;
-}
-
 header {
   display: flex;
   width: 100%;
