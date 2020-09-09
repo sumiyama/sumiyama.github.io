@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+  overflow: scroll;
+}
+
+.body {
+  background: #fff;
+  font-family: 'Yellowtail', cursive;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  z-index: 99;
+  border-bottom: solid 1px #00000050;
+}
+
+.header-menu {
+  display: flex;
+  padding: 15px;
+}
+
+.header-menu-item {
+  margin-left: 7vw;
+}
+
+.article {
+  width: 850px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.article-title {
+  margin: 20px;
+  font-size: 2em;
+}
+
+.article-title p {
+  font-size: 0.5em;
+  margin: 10px;
+}
+
+.article-summary {
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-align: justify;
+}
+
+.article-summary img {
+  width: 300px;
+  margin: 0 15px;
+  float: left;
+}
+
+.article-info {
+  margin-top: 15px;
+}
+
+.article-info a {
+  text-decoration: none;
+  color: #000;
+}
+
+.article-info a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+  font-weight: bold;
+  border-top: solid 1px #00000050;
+  background: #eaeaea;
+}
+
+.copyright {
+  color: black;
+  font-size: 12px;
+}
+
+.page-lr {
+  display: flex;
+  width: 850px;
+  margin: 30px auto;
+}
+
+.page-back {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-l {
+  width: 30%;
+  margin-left: 30px;
+}
+
+.page-r {
+  width: 30%;
+  margin-right: 30px;
+}
+
+.page-r a:hover, .page-l a:hover, .page-back a:hover {
+  color: blue;
+}
