@@ -1,0 +1,341 @@
+﻿.space {
+  margin: 0 auto;
+}
+
+
+/*---kanicity.html---*/
+
+.main01 img {
+  display: inline-block;
+  transition: .7s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.main01 img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+
+.main01 img {
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main01-title {
+  animation-name: fadein2;
+  animation-duration: 3s;
+}
+
+@keyframes fadein2 {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main02 a {
+  text-decoration: none;
+}
+
+.main02 a:hover {
+  text-decoration: underline;
+  color: #00000070;
+}
+
+.main02-text img {
+  display: inline-block;
+  transition: .3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.main02-text img:hover {
+  overflow: hidden;
+  -webkit-transform: scale(1.1);
+  transform: scale(4);
+}
+
+.main02-text img, .main02 img {
+  display: inline-block;
+  transition: .3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.main02-text img:hover, .main02 img:hover {
+  overflow: hidden;
+  opacity: 0.7;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.08);
+}
+
+.main03-btn > a:hover > p {
+    opacity: 0.8;
+}
+
+.news li:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.scrollmenu {
+  list-style-type: none;
+  width: 70px;
+  height: 55px;
+  background: #ffffff00;
+}
+
+.scrollmenu li {
+  position: relative;
+  width: 19990914px;
+  text-align: center;
+}
+
+.scrollmenu li a {
+  display: block;
+  padding: 27px 0 0px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.scrollmenu li:hover>a {
+  color: lightgray;
+}
+
+.scrollmenu li ul {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
+
+.scrollmenu li ul li {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+  background-color: #ffffff70;
+}
+
+.scrollmenu li ul li a {
+  padding: 24px 15px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.scrollmenu li:hover li {
+  height: 45px;
+  border-bottom: 1px solid #000;
+}
+
+
+/*---introduction.html---*/
+
+
+/*---gallery.html---*/
+
+.light a:hover, #light:hover {
+  color: #fff;
+  text-shadow: 0px 0px 10px #fff200, 0px 0px 20px #fff200, 0px 0px 30px #fff200, 0px 0px 40px #fff200, 0px 0px 60px #fff200;
+}
+
+.back-button a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 10px #FFD700, 0px 0px 20px #FFD700, 0px 0px 30px #FFD700, 0px 0px 40px #FFD700, 0px 0px 60px #FFD700;
+}
+
+.light-img {
+  position: relative;
+  width: 305px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.light-img .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.15s;
+}
+
+.light-img:hover .active {
+  opacity: 1;
+}
+
+.pop {
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+.pop.show {
+  opacity: 1;
+  transform: none;
+}
+
+.pop_4s {
+  opacity: 0;
+  transition: all 4.2s ease;
+}
+
+.pop_4s.show {
+  opacity: 1;
+  transform: none;
+}
+
+.pop-up {
+  transform: translate(0, 100px);
+}
+
+.pop-down {
+  transform: translate(0px, -100px);
+}
+
+.pop-up-fade {
+  transform: translate(0, 0px);
+}
+
+.pop-up-lr {
+  transform: translate(-100px, 0);
+}
+
+
+/*---contact.html---*/
+
+.top-menu-item a:hover {
+  color: red;
+}
+
+.kani_hp a:hover {
+  color: red;
+}
+
+
+/*---underline---*/
+
+.ul01:hover {
+    text-decoration:underline;
+    /border-bottom: solid 1px #69696980;
+}
+
+.ul02 {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.ul02::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #00000050;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.ul02:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.lr {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.lr::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #00000050;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+
+.lr:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+.rl {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.rl::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #00000050;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+
+.rl:hover::after {
+  transform-origin: right top;
+  transform: scale(1, 1);
+}
+
+/*---common---*/
+
+.line02 {
+  width: 970px;
+  margin: 0px auto 5px auto;
+}
+
+.line02-left {
+  float: left;
+  width: 15%;
+  height: 3px;
+  background: red;
+}
+
+.line02-right {
+  width: 85%;
+  height: 3px;
+  background: #00000030;
+}
+
+.red:hover {
+    color:red;
+}
