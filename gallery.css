@@ -1,0 +1,117 @@
+﻿html {
+  background-image: url(./img/bgimg.jpg);
+  background-size: contain;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  border-bottom: solid 1px #69696950;
+}
+
+.header-menu {
+  display: flex;
+  padding: 25px;
+}
+
+.header-menu-item {
+  margin-left: 7vw;
+}
+
+.header-menu-item a {
+  color: #696969;
+}
+
+.title {
+  text-align: center;
+  padding: 8vh 0;
+}
+
+.title a {
+  color: #696969;
+  text-shadow: 0px 0px 10px black;
+  font-size: 1.2em;
+  transition: 0.1s;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.class {
+  height: 850px;
+  width: 600px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.zzz {
+  position: relative;
+}
+
+.photo img {
+  height: 380px;
+  box-shadow: 4px 4px 5px black;
+  padding: 5px;
+  border-radius: 1px;
+  background: white;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+  line-height: 1.8em;
+  margin: 20px auto;
+  width: 200px;
+  height: 100px;
+  background-image: url(./img/g2.jpg);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px;
+}
+
+.text p {
+  margin: 15px auto 0 auto;
+}
+
+.text02 {
+  color: #808080;
+  text-shadow: 0px 0px 10px black;
+}
+
+.back-button {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.back-button a {
+  color: #696969;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+body.ff {
+  font-family: 'Noto Serif JP', cursive;
+}
+
+.site-footer {
+  padding: 40px;
+  font-weight: bold;
+  border-top: solid 1px black;
+}
+
+.copyright {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.on a {
+  color: #fff;
+  text-shadow: 0px 0px 10px #fff200;
+}
