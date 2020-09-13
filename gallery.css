@@ -68,8 +68,7 @@
   margin: 20px auto;
   width: 200px;
   height: 100px;
-  background: #f8efe2;
-  /background-image: url(./img/g2.jpg);
+  background-image: url(./img/g2.jpg);
   background-size: cover;
   border-radius: 3px;
   box-shadow: 2px 2px 2px;
