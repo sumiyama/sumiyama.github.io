@@ -1,4 +1,12 @@
-﻿html {
+.A {
+  width:100%;
+  height:80%;
+  text-align:center;
+  font-size:24px;
+  margintop:30%;
+}
+  
+html {
   height: 100%;
   overflow: scroll;
   background-size: cover;
