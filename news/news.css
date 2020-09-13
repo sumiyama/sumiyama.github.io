@@ -6,6 +6,10 @@
   margintop:30%;
   background:red;
 }
+
+.A a {
+  color:blue;
+}
   
 html {
   height: 100%;
