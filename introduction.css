@@ -1,0 +1,282 @@
+﻿html {
+  height: 100%;
+  overflow: scroll;
+  background: #ffffff;
+  position:relative;
+  z-index:19990914;
+}
+
+.body {
+  font-size: 20px;
+  width: 100%;
+}
+
+body.ff {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.h1 {
+    font-size:30px;
+    margin:20px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+    position:relative;
+  z-index:19990914;
+}
+
+.header-logo img {
+  float:left;
+  height: 60px;
+  width: auto;
+  padding-top: 20px;
+}
+
+.header-menu {
+  display: flex;
+  padding: 24px;
+}
+
+.header-menu-item {
+  margin-left: 7vw;
+}
+
+.box {
+  height: 15%;
+}
+
+.space {
+  height: 50vh;
+}
+
+.content-headline {
+    font-size: 35px;
+    text-align: center;
+}
+
+.content-text {
+    width: 500px;
+    margin: 50px auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656565;
+    text-align: justify;
+}
+
+.content01 {
+    padding-top:50px;
+}
+
+.content01-imgbox {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content01-imgbox-left {
+    width: 50%;
+    min-width: 450px;
+}
+
+.content01-imgbox-right {
+    width: 50%;
+    min-width: 450px;
+}
+
+.content01-imgbox-inner {
+    float: left;
+    position: relative;
+    width: 50%;
+    margin-top: 21px;
+}
+
+.content01-imgbox img {
+    width: 100%;
+    }
+
+.content02 {
+    padding: 150px 0;
+}
+
+.content02 img {
+    width:100vw;
+    height:24vw;
+    object-fit: cover;
+}
+
+.content03 {
+    margin: 0px 0 150px 0;
+}
+
+.content03-imgbox {
+    display:flex;
+    width:100vw;
+}
+
+.content03-imgbox img{
+    width:50%;
+    height:30vw;
+    object-fit: cover;
+}
+
+.more {
+    margin: 15px auto;
+    padding: 12px 0 0 0;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #00AFF0;
+}
+
+.more p {
+    color:white;
+}
+
+.more:hover {
+    opacity:0.75;
+}
+
+.arrow {
+    width: 50px;
+    margin: 50px auto 70px auto;
+}
+
+.arrow img{
+    width: 100%;
+}
+
+.arrow img:hover {
+    opacity:0.65;
+}
+
+.site-footer {
+    padding: 40px;
+    background: #00AFF015;
+}
+
+.copyright {
+  color: #3f3f3f;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*-----吹き出し-----*/
+
+.center {
+  text-align: center;
+}
+
+.main00-img-box {
+  text-align: center;
+}
+
+.main00-img-box img {
+  width: 70px;
+}
+
+.main00-item {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  border: solid 1px #727272;
+  padding: 16px;
+  min-width: 240px;
+  max-width: 350px;
+  text-align: center;
+  margin: 40px 0 15px 0;
+}
+
+.main00-item:before, .main00-item:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.main00-item:before {
+  border: solid 12px transparent;
+  border-top: solid 12px #727272;
+}
+
+.main00-item:after {
+  border: solid 15px transparent;
+  border-top: solid 15px #fff;
+  margin-top: -5px;
+}
+
+.x a {
+    margin-bottom: 2px;
+    border-bottom: solid 1px #000;
+}
+
+
+
+
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.background-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: linear-gradient(to bottom, #FFC77800, #fff);
+}
+
+.mask-text {
+    color: #393939;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    padding: 240px 0;
+    margin-left: 15px; /*なんかずれてみえるから*/
+}
+
+.mask2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.mask2-text {
+    color: #fff;
+    font-size: 12px;
+    margin: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.ul03:hover {
+    text-shadow: 0px 0px 30px white, 0px 0px 10px white, 0px 0px 40px white, 0px 0px 15px white, 0px 0px 20px white;
+}
