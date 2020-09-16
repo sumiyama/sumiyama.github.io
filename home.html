@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME</title>
+        <link href="common.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="header"></div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+      <li>企業一覧<span>2020<br>卒業研究</span></li>
+      <li><a href="" target="_blank">企業一覧</a></li>
+      <li><a href="" target="_blank">企業検索</a></li>
+      <li><a href="" target="_blank">ブックマーク</a></li>
+      <li><a href="" target="_blank">ヘルプ</a></li>
+      <li><a href="" target="_blank">その他</a></li>
+    </ul>
+  </div>
+    <form name="form1" id="login_form_box" method="post" action="./login/check_login.php">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="login_form">
+                        <h1>ログイン</h1>
+                        <input name="txtUsername" type="text" id="txtUsername" placeholder="username"><br>
+                        <input name="txtPassword" type="password" id="txtPassword" placeholder="password"><br><br>
+                        <input type="submit" name="Submit" value="Login">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </body>
+</html>
